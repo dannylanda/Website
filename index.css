@@ -14,13 +14,14 @@ main {
 main .main-intro {
     font-size: 96px;
     line-height: 106px;
-    padding: 10px 20px;
+    padding: 10px 25px;
 }
 
 main p {
     font-size: 18px;
     line-height: 30px;
-    padding: 10px 20px;}
+    padding: 10px 20px;
+}
 
 main a {
     font-size: 18px;

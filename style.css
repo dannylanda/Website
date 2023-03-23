@@ -8,7 +8,7 @@ body:after {
     height: 0;
     overflow:hidden;
     z-index: -1;
-    content: url(/img/instagram.png) url(img/linkedin.png);
+    content: url(/website/instagram.png) url(website/linkedin.png);
 }
 
 h1 {
@@ -35,10 +35,11 @@ a {
 
 .header-main {
     width: 100%;
-    height: 60px;
+    height: 0px;
     background-color: #ffffff;
     display: flex;
     justify-content: space-between;
+    padding: 20px 2px;
 }
 
 .header-main-logo {
@@ -57,6 +58,7 @@ a {
 .header-main-nav {
     width: fit-content;
     height: 100px;
+    
 }
 
 .header-main-nav ul {
@@ -80,7 +82,7 @@ height: 100%;
 
 .header-main-nav ul a:hover {
     color:blue;
-    }
+}
 
 .header-main.sm {
 width: fit-content;
@@ -94,7 +96,7 @@ column-gap: 10px;
 .header-main-sm-ig {
     width: 20px;
     height: 30px;
-    background-image: url(/img/instagram.png);
+    background-image: url(/website/instagram.png);
     background-repeat: no-repeat;
     background-size: cover;   
     align-self:center; 
@@ -103,7 +105,7 @@ column-gap: 10px;
 .header-main-sm-li {
     width: 20px;
     height: 30px;
-    background-image: url(/img/linkedin.png);
+    background-image: url(/website/linkedin.png);
     background-repeat: no-repeat;
     background-size: cover;
     align-self: center;

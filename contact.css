@@ -1,15 +1,14 @@
 body {
     background-color: black;
     color: #fff;
-    padding: 0 10px;
+    padding: 0 2px;
     font-family: 'Roboto', sans-serif;
     line-height: 300px;
-    display:#fff;
     height: 500px;
     text-align: center;
     align-items: center;
     justify-content: space-evenly;
-    display: ;
+    line-height: 70px;
     }
     
     body:after {
@@ -117,6 +116,14 @@ body {
         background-repeat: no-repeat;
         background-size: cover;
         align-self: center;
+
+    }
+    .contactdetails {
+    padding-top: 200px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
     }
 
     

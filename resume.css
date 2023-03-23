@@ -1,12 +1,15 @@
 body {
 background-color: black;
 color: #fff;
-padding: 0 10px;
+padding: 0 2px;
 font-family: 'Roboto', sans-serif;
 line-height: 300px; 
-display:#fff;
-height: 500px;
+height: 00px;
+width: ;
 text-align: center;
+justify-content: center;
+align-items: center;
+line-height: 20px;
 
 }
 
@@ -16,7 +19,7 @@ body:after {
     height: 0;
     overflow:hidden;
     z-index: -1;
-    content: url(/img/instagram.png) url(img/linkedin.png);
+    content: url(/website/instagram.png) url(website/linkedin.png);
 }
 
 h1 {
@@ -102,7 +105,7 @@ column-gap: 10px;
 .header-main-sm-ig {
     width: 20px;
     height: 30px;
-    background-image: url(/img/instagram.png);
+    background-image: url(/website/instagram.png);
     background-repeat: no-repeat;
     background-size: cover;   
     align-self:center; 
@@ -111,9 +114,18 @@ column-gap: 10px;
 .header-main-sm-li {
     width: 20px;
     height: 30px;
-    background-image: url(/img/linkedin.png);
+    background-image: url(website/linkedin.png);
     background-repeat: no-repeat;
     background-size: cover;
     align-self: center;
 }
 
+.DevOps {
+    font-weight: bolder;
+    color: rgb(246, 78, 78);
+}
+
+.Certs {
+    font-weight: bolder;
+    color: rgb(246, 78, 78);
+}
