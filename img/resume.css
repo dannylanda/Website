@@ -1,7 +1,3 @@
-body {
-    background-color:rgb(255, 255, 255);
-}
-
 body:after {
     position: absolute;
     width: 0;
@@ -108,4 +104,3 @@ column-gap: 10px;
     background-size: cover;
     align-self: center;
 }
-

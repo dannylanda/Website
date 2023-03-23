@@ -1,14 +1,30 @@
 main {
     width: 100%;
-    height: calc(100vh - 60px);
-    background-color: #fbfbfb;
+    height: calc(100vh - 70px);
+    background-color: #000000;
     margin-top: 60px;
-    background-image: url(img/background.jpg);
-    background-size: cover;
+    background-size:contain;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
+main .main-intro {
+    font-size: 96px;
+    line-height: 106px;
+    padding: 10px 20px;
+}
+
+main p {
+    font-size: 18px;
+    line-height: 30px;
+    padding: 10px 20px;}
+
+main a {
+    font-size: 18px;
+    display: block;
+    padding: 10px 20px;
+}
+    
